@@ -23,6 +23,7 @@
     </dependencyManagement>
     <modules>
         <module>Order</module>
+        <module>Discovery</module>
     </modules>
 
 

@@ -1,2 +1,13 @@
 server:
   port: 8081
+
+spring:
+  application:
+    name: Order Application
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
